@@ -2,7 +2,7 @@
     <head>
         <title>SEATWORK</title>
     </head>
-    <body style="background-color:skyblue">
+    <body>
         <h1> ADD STUDENT </h1>
         <form action = "action_page.php" method="POST">
             <table border="1" cellspacing="5" width="25%">
