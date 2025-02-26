@@ -11,12 +11,18 @@
                 </tr>
                 <tr>
                     <td>Name</td>
-                    <td> <input type = "text" Name = "FullName"></td>
+                    <td> <input type = "text" Value = "FullName"></td>
                 </tr>    
                 <tr>
                     <td>Gender</td>
-                    <td> <input type = "Radio" Value = "Male"></td>
-                    <td> <input type = "Radio" Value = "Female"></td>
+                    <td> 
+                        <input type="radio" id="Male">
+                        <label for="Male">Male</label>
+
+                        <input type = "radio" id = "Female">
+                        <label for="Female">Female</label>
+                        
+                    </td>
                 </tr>
                 <tr>
                     <td>Country</td>
@@ -28,9 +34,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input type = "Submit" Value = "Save"></td>
+                    <td colspan="2"> <input type = "Submit" Value = "Save"> </td>
                 </tr>
             </table>
         </form>
-    </body>>
+    </body>
 </html>
