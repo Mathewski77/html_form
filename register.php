@@ -3,15 +3,16 @@
         <title>SEATWORK</title>
     </head>
     <body>
+        <h1> ADD STUDENT </h1>
         <form action = "action_page.php" method="GET">
-            <table>
+            <table border="1" cellspacing="5" width="25%">
                 <tr>
                     <th>Question</th>
                     <th>Answer</th>
                 </tr>
                 <tr>
                     <td>Name</td>
-                    <td> <input type = "text" Value = "FullName"></td>
+                    <td> <input type = "text" name = "FullName" placeholder="Enter the FullName"></td>
                 </tr>    
                 <tr>
                     <td>Gender</td>
@@ -25,15 +26,18 @@
                 <tr>
                     <td>Country</td>
                     <td>
-                        <select>
-                            <option>PH</option>
-                            <option>AUS</option>
-                            <option>US</option>
+                        <select name="country">
+                            <option value="PH">-SELECT YOUR COUNTRY-</option>
+                            <option value="PH">Philippines</option>
+                            <option value="AUS">Australia</option>
+                            <option value="US">United States</option>
                         <select>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2"> <input type = "Submit" Value = "Save"> </td>
+                    <td colspan="2" align="right"> 
+                        <input style = "padding:1@px; color: #FFF; background-color: blue"
+                        type= "Submit" name = "save" value="Save" /> </td>
                 </tr>
             </table>
         </form>
