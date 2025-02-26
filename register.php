@@ -3,7 +3,7 @@
         <title>SEATWORK</title>
     </head>
     <body>
-        <form action = "action.php" method="GET">
+        <form action = "action_page.php" method="GET">
             <table>
                 <tr>
                     <th>Question</th>
@@ -16,17 +16,16 @@
                 <tr>
                     <td>Gender</td>
                     <td> 
-                        <input type="radio" id="Male">
-                        <label for="Male">Male</label>
-
-                        <input type = "radio" id = "Female">
-                        <label for="Female">Female</label>
-                        
+                        <input type="radio" id="male" name="value" value="male" >
+                        <label for="male">Male</label>
+                        <input type = "radio" id="female" name="value" value="female">
+                        <label for="female">Female</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Country</td>
-                    <td><select>
+                    <td>
+                        <select>
                             <option>PH</option>
                             <option>AUS</option>
                             <option>US</option>
