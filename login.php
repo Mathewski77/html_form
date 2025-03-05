@@ -6,11 +6,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="loginstyle.css">
-        <title>Login</title>
+            <link rel="stylesheet" href="loginstyle.css">
+                <title>Login</title>
     </head>
+        <style>
+            h2 {text-align: center}
+
+             
+        </style>
         <body>
+
             <h2 style="margin-left:10rem; margin-top:5rem;">Enter Username and Password</h2> 
+            
             <?php
                 $msg = '';
                 $users = ['user'=>"test", "manager"=>"secret", "guest"=>"abc123"];
@@ -46,9 +53,9 @@
                     <label for="password">Password:</label>
                     <input type="password" name="password" id="password">
                 </div>
-                <section style="margin-left:2rem;">
-                    <button type="submit" name="login">Login</button>
-                </section>
+                    <section style="margin-left:2rem;"> <br>
+                        <button type="submit" name="login">Login</button>
+                    </section>
             </form>
 
             <p style="margin-left: 2rem;"> 
