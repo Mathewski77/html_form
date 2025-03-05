@@ -26,7 +26,7 @@
     echo "Connected successfully";
 ?>
 <?php
-    $sql = "INSERT INTO student_record (ID, Full_name, Gender, Country)
+    $sql = "INSERT INTO students_records (ID, Full_name, Gender, Country)
     VALUES ('','$fullname','$gender','$country')";
 
     if ($conn->query($sql) === TRUE) {
