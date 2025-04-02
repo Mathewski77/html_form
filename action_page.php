@@ -17,7 +17,7 @@
     $database = "wait_lang_sir";
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password,$database);
+    $conn = new mysqli($servername, $username, $password, $database);
 
     // Check connection
     if ($conn->connect_error) {
@@ -26,7 +26,7 @@
     echo "Connected successfully";
 ?>
 <?php
-    $sql = "INSERT INTO students_records (ID, Full_name, Gender, Country)
+    $sql = "INSERT INTO students_records (ID, Full_name,Gender, Country)
     VALUES ('','$fullname','$gender','$country')";
 
     if ($conn->query($sql) === TRUE) {

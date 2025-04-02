@@ -12,14 +12,14 @@
                 </tr>
                 <tr>
                     <td>Name</td>
-                    <td> <input type = "text" name = "FullName" placeholder="Enter the FullName"></td>
+                        <td> <input type = "text" name = "FullName" placeholder="Enter the FullName"></td>
                 </tr>    
                 <tr>
                     <td>Gender</td>
                     <td> 
-                        <input type="radio" id="male" name="Gender" value="male" >
+                        <input type="radio" name="Gender" value="male" >
                         <label for="male">Male</label>
-                        <input type = "radio" id="female" name="Gender" value="female">
+                        <input type = "radio" name="Gender" value="female">
                         <label for="female">Female</label>
                     </td>
                 </tr>
@@ -37,7 +37,7 @@
                 <tr>
                     <td colspan="2" align="right"> 
                         <input style = "padding:1@px; color: #FFF; background-color: blue"
-                        type= "Submit" name = "save" value="Save" /> </td>
+                        type= "Submit" name = "save" value="Save Record" /> </td>
                 </tr>
             </table>
         </form>
